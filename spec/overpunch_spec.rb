@@ -10,7 +10,7 @@ RSpec::Matchers.define :be_zero_padded do |expected_zeroes|
   end
 
   match do |actual|
-    actual.match /\A0{#{expected_zeroes}}[^0]/
+    actual.match(/\A0{#{expected_zeroes}}[^0]/)
   end
 
   description do
@@ -42,7 +42,7 @@ describe Overpunch do
     end
 
     context "given an integer" do
-      let(:value) { rand -1000..1000 }
+      let(:value) { rand(-1000..1000) }
 
       its(:value) { is_expected.to eq value }
       its(:width) { is_expected.to be_nil }
@@ -88,7 +88,7 @@ describe Overpunch do
   end
 
   describe "#to_i" do
-    let(:value) { rand -1000..1000 }
+    let(:value) { rand(-1000..1000) }
 
     subject { overpunch.to_i }
 

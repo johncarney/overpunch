@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Overpunch::VERSION
   spec.authors       = ["John Carney"]
   spec.email         = ["john@carney.id.au"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Parses and formats numbers in overpunch format.}
+  spec.description   = %q{Simple class for parsing and formatting numbers in overpunch format.}
+  spec.homepage      = "https://github.com/johncarney/overpunch"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec-its"
 end

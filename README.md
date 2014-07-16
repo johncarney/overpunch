@@ -62,6 +62,10 @@ Or install it yourself as:
     Overpunch.format(20, width: 6)
     # => "00002{"
 
+## Requirements
+
+* Ruby 2.0.0 or later
+
 ## Contributing
 
 1. Fork it ( http://github.com/johncarney/overpunch/fork )

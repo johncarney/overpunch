@@ -4,7 +4,7 @@ module Overpunch
   POS_OVERPUNCH_SET = '{ABCDEFGHI'.freeze
   NEG_OVERPUNCH_SET = '}JKLMNOPQR'.freeze
 
-  OVERPUNCH_PATTERN = /\A\s*(\d*(([#{POS_OVERPUNCH_SET}])|([#{NEG_OVERPUNCH_SET}])))\s*\Z/.freeze
+  OVERPUNCH_PATTERN = /\A\s*0*(\d*(([#{POS_OVERPUNCH_SET}])|([#{NEG_OVERPUNCH_SET}])))\s*\Z/.freeze
 
   attr_reader :value, :width
 

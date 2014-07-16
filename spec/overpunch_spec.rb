@@ -55,7 +55,7 @@ describe Overpunch do
     context "given an invalid overpunch string" do
       let(:value) { "123X" }
 
-      example { expect { parse }.to raise_error ArgumentError, "Invalid overpunch value: \"#{value}\"" }
+      example { expect { parse }.to raise_error ArgumentError, "Invalid overpunch string: \"#{value}\"" }
     end
   end
 

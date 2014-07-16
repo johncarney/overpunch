@@ -4,7 +4,30 @@ Simple module for parsing and formatting numbers in signed overpunch format.
 
 [Signed overpunch](http://wikipedia.org/wiki/Signed_overpunch) is a code used
 to indicate the sign of a number by replacing the last digit with a signed
-overpunch code.
+overpunch code. For example, -45 would be encoded as "4N".
+
+| Sign | Digit | Code |
+|:----:|:-----:|:----:|
+|    + |     0 |    { |
+|    + |     1 |    A |
+|    + |     2 |    B |
+|    + |     3 |    C |
+|    + |     4 |    D |
+|    + |     5 |    E |
+|    + |     6 |    F |
+|    + |     7 |    G |
+|    + |     8 |    H |
+|    + |     9 |    I |
+|    - |     0 |    } |
+|    - |     1 |    J |
+|    - |     2 |    K |
+|    - |     3 |    L |
+|    - |     4 |    M |
+|    - |     5 |    N |
+|    - |     6 |    O |
+|    - |     7 |    P |
+|    - |     8 |    Q |
+|    - |     9 |    R |
 
 ## Installation
 

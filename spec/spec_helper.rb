@@ -19,7 +19,10 @@ RSpec.configure do |config|
 
   # Coveralls
   require "coveralls"
-  Coveralls.wear!
+
+  Coveralls.wear! do
+    add_filter 'spec'
+  end
 
   # These two settings work together to allow you to limit a spec run
   # to individual examples or groups you care about by tagging them with

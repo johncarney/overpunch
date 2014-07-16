@@ -66,6 +66,13 @@ Or install it yourself as:
 
 * Ruby 2.0.0 or later
 
+## Build status
+
+Branch | Status
+------ | ------
+master | [![master build status](https://travis-ci.org/johncarney/overpunch.svg?branch=master)](https://travis-ci.org/johncarney/overpunch)
+v1.0.0 | [![v1.0.0 build status](https://travis-ci.org/johncarney/overpunch.svg?branch=v1.0.0)](https://travis-ci.org/johncarney/overpunch)
+
 ## Contributing
 
 1. Fork it ( http://github.com/johncarney/overpunch/fork )

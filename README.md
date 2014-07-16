@@ -1,5 +1,9 @@
 # Overpunch
 
+[![Gem Version](https://badge.fury.io/rb/overpunch.svg)](http://badge.fury.io/rb/overpunch)
+[![Build status](https://travis-ci.org/johncarney/overpunch.svg?branch=master)](https://travis-ci.org/johncarney/overpunch)
+[![Coverage Status](https://img.shields.io/coveralls/johncarney/overpunch.svg)](https://coveralls.io/r/johncarney/overpunch?branch=master)
+
 Simple module for parsing and formatting numbers in signed overpunch format.
 
 [Signed overpunch](http://wikipedia.org/wiki/Signed_overpunch) is a code used
@@ -65,14 +69,6 @@ Or install it yourself as:
 ## Requirements
 
 * Ruby 2.0.0 or later
-
-## Build status
-
-Branch | Status
------- | ------
-master | [![master build status](https://travis-ci.org/johncarney/overpunch.svg?branch=master)](https://travis-ci.org/johncarney/overpunch)
-       | [![Coverage Status](https://img.shields.io/coveralls/johncarney/overpunch.svg)](https://coveralls.io/r/johncarney/overpunch?branch=master)
-v1.0.1 | [![v1.0.1 build status](https://travis-ci.org/johncarney/overpunch.svg?branch=v1.0.1)](https://travis-ci.org/johncarney/overpunch)
 
 ## Contributing
 

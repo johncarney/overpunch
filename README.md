@@ -71,6 +71,7 @@ Or install it yourself as:
 Branch | Status
 ------ | ------
 master | [![master build status](https://travis-ci.org/johncarney/overpunch.svg?branch=master)](https://travis-ci.org/johncarney/overpunch)
+       | [![Coverage Status](https://img.shields.io/coveralls/johncarney/overpunch.svg)](https://coveralls.io/r/johncarney/overpunch?branch=master)
 v1.0.1 | [![v1.0.1 build status](https://travis-ci.org/johncarney/overpunch.svg?branch=v1.0.1)](https://travis-ci.org/johncarney/overpunch)
 
 ## Contributing

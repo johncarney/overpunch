@@ -33,7 +33,7 @@ overpunch code. For example, -45 would be encoded as "4N".
 
 Add this line to your application's Gemfile:
 
-    gem 'overpunch'
+    gem "overpunch"
 
 And then execute:
 

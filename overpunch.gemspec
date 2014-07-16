@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Overpunch::VERSION
   spec.authors       = ["John Carney"]
   spec.email         = ["john@carney.id.au"]
-  spec.summary       = %q{Parses and formats numbers in overpunch format.}
-  spec.description   = %q{Simple class for parsing and formatting numbers in overpunch format.}
+  spec.summary       = %q{Parses and formats numbers in signed overpunch format.}
+  spec.description   = %q{Simple module for parsing and formatting numbers in signed overpunch format.}
   spec.homepage      = "https://github.com/johncarney/overpunch"
   spec.license       = "MIT"
 
